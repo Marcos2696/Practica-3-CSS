@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box; /*MUY IMPORTANTE ESTO, GRACIAS A ESTO CONEGUIMOS QUE AL PONERLE EL PADING A CADA CUADRADITO NO SE NOS DESCOLOQUE TODO POR COMPLETO Y EL PADDING SE AÑADA INTERIORMENTE
+    ESTO NOS VA A PASAR MUCHÍSIMAS VECES*/
+}
+
+
+body{
+    background-color: rgb(56, 54, 54);
+    color: rgb(240, 237, 237);
+    font-family: sans-serif;
+    text-align: left;   
+}
+
+.card-main{
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   top: 250px;
+    height: 500px;
+    width: 1002px;
+
+}
+
+.card1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 334px; 
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+}
+
+.card2{
+    position: absolute;
+    top:0;
+    left: 334px;
+    height: 500px;
+    width: 334px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+.card3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 500px;
+    width:334px ;
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+}
+
+.text{
+    position: relative;
+    top: 20px;
+}
+
+.link{
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    bottom: 50px;;
+    background-color: rgb(240, 237, 237);
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 15px;
+    text-decoration: none; /* IMPORTANTE: ESTO ES PARA QUITAR LA LINEA QUE SE LE PONEN A LOS ENLACES*/
+}
+
+.link1{
+    color: hsl(31, 77%, 52%);
+    
+    
+}
+.link2{
+    color: hsl(184, 100%, 22%);
+
+}
+.link3{
+    color: hsl(179, 100%, 13%);
+
+}
